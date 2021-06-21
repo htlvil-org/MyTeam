@@ -8,6 +8,9 @@ public class MainAppl {
 
 
 		Player player = new Player(10, "Kalajdzic", "Striker");
+		player = new Player(6, "Gregoritsch", "Midfielder");
+		System.out.println("== " + player);
+		
 		System.out.println("== " + player);
 		player = new Player(11, "Arnautovic", "Striker");
 
